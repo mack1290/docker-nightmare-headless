@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:10-alpine
 
 # Updating ubuntu packages
 RUN apt-get update
