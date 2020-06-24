@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:10
 
 # Updating ubuntu packages
 RUN apt-get update
